@@ -1,5 +1,6 @@
 lista = [3, 7, 123, -12, 47, 1, 0, 55, 18]
 
+
 max_index = None
 min_index = None
 

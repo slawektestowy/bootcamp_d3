@@ -24,3 +24,12 @@ def suma(*args):
     return wynik
 
 print(suma(1,4,6,7,4,6,2))
+
+
+def formatuj(*args, **kwargs):
+    napis = '\n'.join(args)
+    for i in kwargs:
+       napis= napis.replace(f'${i}', kwargs[i])
+    return napis
+
+print(formatuj("tu jakis $napis", "jakis inny $napis", napis="cos"))

@@ -12,9 +12,8 @@ class CashMachinePremium(CashMachine):
 
 
 def test_new_CashMachinePremium():
-    cm = CashMachinePremium(20)
-    assert not cm.is_available == False
-
+    cm = CashMachinePremium(5)
+    assert not cm.is_available
 
 
 
@@ -22,3 +21,4 @@ def test_to_many_banknotes():
     cm = CashMachinePremium(5)
     with pytest.raises(StackError):
         cm.put_money([200,100,100,50,50,50])
+

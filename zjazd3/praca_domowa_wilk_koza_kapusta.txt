@@ -1,0 +1,32 @@
+Stwórz grę "Wilk koza i kapusta"
+
+gra ma być obiektem
+mamy dwa brzegi
+na początku gry wilk, koza i kapusta są na pierwszym brzegu
+za pomocą łódki można przewieźć jeden obiekt na przeciwny brzeg
+gra kończy się wygraną gdy wilk, koza i kapusta znajdą sie na drugim brzegu
+gra kończy się przegraną jeśli na dowolnym brzegu na raz znajdą się:
+    a) wilk i koza
+    b) koza i kapusta
+    a nie ma tam łódki
+gracz decyduje co zabiera na łódkę
+gracz może płynąć pustą łódką
+po dopłynięciu automatycznie wyładowujemy obiekt na brzeg
+stan gry to informacja gdzie są obiekty: wilk, koza, kapusta, łódka
+
+przykład użycia:
+>>> Menu:
+... stan [g]ry
+... [w]ilk na łódkę
+... [k]oza na łódkę
+... [s]ałata na łódkę
+... [l]ódka na przeciwny brzeg
+>>>g
+>>> pierwszy brzeg: [wilk, koza, sałata] + łódka
+... drugi brzeg: []
+... łódka: []
+>>>w
+wilk na łódce
+>>>l
+wilk na drugim brzegu
+przegrałeś: koza zjadła sałatę na pierwszym brzegu

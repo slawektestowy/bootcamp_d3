@@ -1,0 +1,3 @@
+# instalacja django:
+#       pip install django
+django-admin startproject mysite (trzeba byc w katalogu w ktorym chcemy utworzyc nowy projekt)

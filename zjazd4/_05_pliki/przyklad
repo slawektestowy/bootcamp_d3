@@ -1,0 +1,5 @@
+cennik: towar, kolor, cena
+
+sprzedaz: towar, rabat, ile
+
+wynik polaczenia: towar, rabat, ile, koszt,  kolor, cena
